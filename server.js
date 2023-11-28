@@ -42,6 +42,6 @@ reserveRouter(app);
 CommentRouter(app);
 
 
-app.listen(config.port || 5000 ,()=>{
-    console.log(`server is running on`)
+app.listen(8080,()=>{
+    console.log(`server is running on 8080`)
 })

@@ -1,6 +1,5 @@
 
 const config ={
-    port: 5000,
     sql:{
         user: "Admin1",
         password: "Coffeeshop1",
@@ -12,6 +11,6 @@ const config ={
         }
 
     },
-    jwt_secret: JWT_SECRET
+    jwt_secret: "myjwtsecretthatshouldbelong"
 }
 export default config;
