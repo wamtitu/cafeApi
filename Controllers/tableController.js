@@ -109,13 +109,13 @@ export const createReservation = async (req, res) => {
       const transporter = nodemailer.createTransport({
           service: 'gmail',
           auth: {
-              user: 'wamtitujose@gmail.com',
-              pass: 'oaeg kpjr eukl rfme',
+            user: 'ajayreddy.kphb@gmail.com',
+            pass: 'aznk kqjs agxh glps',
           },
       });
 
       const mailOptions = {
-          from: 'wamtitujose@gmail.com',
+          from: 'ajayreddy.kphb@gmail.com',
           to: email,
           subject: 'Reservation Confirmation',
           html: `<h2> Hello ${name}</h2>
